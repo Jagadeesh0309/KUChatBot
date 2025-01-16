@@ -1,0 +1,267 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", 
+        "Hey", 
+        "Hello", 
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Howdy",
+        "What's up?", 
+        "Anyone here?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting", 
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye", 
+        "Catch you later", 
+        "Take care", 
+        "Farewell", 
+        "I'm leaving", 
+        "Later", 
+        "See ya", 
+        "I'm out"
+      ],
+      "responses": [
+        "See you later, thanks for visiting", 
+        "Have a nice day", 
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "Much appreciated", 
+        "I'm grateful", 
+        "Thanks a lot!", 
+        "Cheers", 
+        "That's helpful"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "Tell me about academics",
+        "Where can I find information on academics?",
+        "I want to know about academics",
+        "Academics"
+      ],
+      "responses": [
+        "You can find information about academics here: <a href='https://ku.edu/academics' target='_blank'>KU Academics</a>."
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "Show me research information",
+        "What are the research opportunities?",
+        "Research",
+        "Tell me about research"
+      ],
+      "responses": [
+        "Learn more about research opportunities here: <a href='https://ku.edu/research' target='_blank'>KU Research</a>."
+      ]
+    },
+    {
+      "tag": "athletics",
+      "patterns": [
+        "Where can I learn about athletics?",
+        "Tell me about athletics",
+        "Athletics",
+        "Sports at KU",
+        "KU sports events",
+        "How to get KU game tickets?"
+      ],
+      "responses": [
+        "Find out more about KU athletics and events here: <a href='https://kuathletics.com' target='_blank'>KU Athletics</a>."
+      ]
+    },
+    {
+      "tag": "canvas",
+      "patterns": [
+        "How do I access Canvas?",
+        "KU Canvas", 
+        "Where can I check my assignments on Canvas?",
+        "How do I submit my assignment?",
+        "Where can I see my grades?",
+        "How do I use Canvas for my classes?",
+        "What is Canvas?"
+      ],
+      "responses": [
+        "Access KU Canvas here: <a href='https://canvas.ku.edu' target='_blank'>KU Canvas</a>. Ensure your notifications are set up correctly for class updates."
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "How do I access my KU email?",
+        "Where can I check my university email?",
+        "What is the link to KU email?", 
+        "How to access KU Office 365?"
+      ],
+      "responses": [
+        "You can check your KU email here: <a href='https://outlook.office365.com' target='_blank'>KU Email</a>."
+      ]
+    },
+    {
+      "tag": "myku",
+      "patterns": [
+        "How do I access My KU?",
+        "What is My KU?",
+        "How do I enroll in classes?",
+        "Where can I check my pay stubs?",
+        "Where do I find my student information?",
+        "What services are available on My KU?",
+        "How can I check my KU financial aid?"
+      ],
+      "responses": [
+        "You can access My KU for enrollments, payments, and more here: <a href='https://my.ku.edu' target='_blank'>My KU</a>."
+      ]
+    },
+    {
+      "tag": "enrollpay",
+      "patterns": [
+        "Where do I enroll in courses?",
+        "How do I make a payment for tuition?",
+        "What is the Enroll and Pay link?",
+        "Where can I check my course enrollment?"
+      ],
+      "responses": [
+        "You can enroll in classes and make payments here: <a href='https://sa.ku.edu' target='_blank'>KU Enroll & Pay</a>."
+      ]
+    },
+    {
+      "tag": "hrpay",
+      "patterns": [
+        "How do I clock in and out at KU?",
+        "Where can I track my work hours?",
+        "What is the link to HR Pay?",
+        "HR Pay",
+        "How do I log my working hours as a student?"
+      ],
+      "responses": [
+        "You can clock in and track your work hours here: <a href='https://hr.ku.edu' target='_blank'>HR Pay</a>."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "Where can I find KU admissions info?",
+        "How do I apply to KU?",
+        "KU Admissions",
+        "What is the link for KU admissions?",
+        "KU application link"
+      ],
+      "responses": [
+        "You can find admissions information and apply to KU here: <a href='https://ku.edu/admissions' target='_blank'>KU Admissions</a>."
+      ]
+    },
+    {
+      "tag": "jobs",
+      "patterns": [
+        "How can I find a job at KU?",
+        "KU Employment",
+        "KU Job",
+        "What is the link for KU jobs?",
+        "Where can I find student job listings?"
+      ],
+      "responses": [
+        "You can find job listings and apply here: <a href='https://employment.ku.edu' target='_blank'>KU Jobs</a>."
+      ]
+    },
+    {
+      "tag": "itsupport",
+      "patterns": [
+        "How do I contact KU IT support?",
+        "What is the link for KU IT support?",
+        "How do I get help with IT issues at KU?"
+      ],
+      "responses": [
+        "You can find IT support and resources here: <a href='https://technology.ku.edu' target='_blank'>KU IT Support</a>."
+      ]
+    },
+    {
+      "tag": "printservices",
+      "patterns": [
+        "Where can I print documents at KU?",
+        "How do I use KU Print Services?",
+        "What is the link to print at KU?",
+        "How do I access MyPrint at KU?"
+      ],
+      "responses": [
+        "You can use KU Print Services here: <a href='https://myprint.ku.edu' target='_blank'>KU Print Services</a>."
+      ]
+    },
+    {
+      "tag": "iss",
+      "patterns": [
+        "Where can international students find support at KU?",
+        "ISS",
+        "International Student Services",
+        "How do I contact KU ISS?",
+        "What is the link for KU international student services?",
+        "Where is KU international student office?"
+      ],
+      "responses": [
+        "International students can find support and resources here: <a href='https://iss.ku.edu' target='_blank'>KU ISS (International Student Services)</a>."
+      ]
+    },
+    {
+      "tag": "registrar",
+      "patterns": [
+        "Where can I find the KU registrar?", 
+        "How do I contact the KU registrar office?",
+        "What is the link for KU registrar?",
+        "How can I get my transcripts at KU?"
+      ],
+      "responses": [
+        "You can contact the registrar and request transcripts here: <a href='https://registrar.ku.edu' target='_blank'>KU Registrar</a>."
+      ]
+    },
+    {
+      "tag": "gradplan",
+      "patterns": [
+        "Where can I find the graduate plan of study?",
+        "KU Plan of study",
+        "Plan of study",
+        "What is the link for KU graduate study plans?",
+        "How do I access my KU graduate plan of study?"
+      ],
+      "responses": [
+        "You can access the KU Graduate Plan of Study here: <a href='https://engrgradplan.ku.edu' target='_blank'>KU Graduate Plan of Study</a>."
+      ]
+    },
+    {
+      "tag": "classesinfo",
+      "patterns": [
+        "Where can I check my class schedule?",
+        "How do I find out my class times?",
+        "Where can I see my lecturers' info?",
+        "Where can I find classroom locations?",
+        "What is the KU class schedule link?"
+      ],
+      "responses": [
+        "You can check your class schedule, lecturer information, and classroom locations here: <a href='https://classes.ku.edu/' target='_blank'>KU Class Schedule</a>."
+      ]
+    }
+  ]
+}

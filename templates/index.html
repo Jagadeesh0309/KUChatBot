@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the Home of Jayhawks</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/static/images/KULogo.png" alt="KU Logo">
+                </div>
+                <nav class="top-nav">
+                    <a href="#">The University of Kansas</a>
+                </nav>
+                <form style="margin-left: 60%;">
+                    <input type="search" placeholder="Search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-banner"></section>
+        <div style="display: flex; align-items: center;justify-content: center; height:40px;background-color: #00529B;">
+            <div style="text-align: center;">
+                <h2 style="color: white;">WELCOME TO UNIVERSITY OF KANSAS</h2>
+            </div>
+
+        </div>
+
+        <section class="programs">
+            <div class="container">
+                <h2>Explore Our Programs</h2>
+                <div class="program-grid">
+                    <div class="program-card">
+                        <h3>Undergraduate</h3>
+                        <p>Discover our wide range of undergraduate programs designed to help you achieve your goals.
+                        </p>
+                        <a href="https://ku.edu/undergraduate-request-info" target="_blank" class="cta-button">Learn
+                            More</a>
+                    </div>
+                    <div class="program-card">
+                        <h3>Graduate</h3>
+                        <p>Advance your career with our comprehensive graduate programs.</p>
+                        <a href="https://ku.edu/graduate-request-info" target="_blank" class="cta-button">Learn More</a>
+                    </div>
+                    <div class="program-card">
+                        <h3>Online Learning</h3>
+                        <p>Flexible online programs to fit your busy schedule.</p>
+                        <a href="#" class="cta-button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <img src="/static/images/researchimage.jpg" style="height: 200px;width: 400px;" alt="News 1">
+                        <div class="news-card-content">
+                            <h3>Curious about KU? Let’s connect.</h3>
+                            <a href="#" class="cta-button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="/static/images/researchimage2.jpg" style="height: 200px;width: 400px;" alt="News 2">
+                        <div class="news-card-content">
+                            <h3>Through KU excellence, we raise the bar.</h3>
+                            <a href="https://ku.edu/academics" target="_blank" class="cta-button">Read More</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <img src="/static/images/kuchant.jpg" style="height: 200px;width: 400px;" alt="News 3">
+                        <div class="news-card-content">
+                            <h3>By Jayhawk tradition, we raise one chant.</h3>
+                            <a href="https://kuathletics.com/" target="_blank" class="cta-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Join Our Community</h2>
+                <p>Take the first step towards your future. Apply now and become part of our diverse and vibrant
+                    community.</p>
+                <a href="https://ku.edu/admissions" class="cta-button">Start Your Application</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Libraries</a></li>
+                        <li><a href="#">Maps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Giving</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Athletics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Policies</h3>
+                    <ul>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Privacy Statement</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="contact-box">
+                        <p>Strong Hall</p>
+                        <p>1450 Jayhawk Blvd.</p>
+                        <p>Lawrence, KS 66045</p>
+                        <p>publicaffairs@ku.edu</p>
+                        <p>785-864-2700</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 University of Kansas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Icon -->
+    <div id="chat-icon" class="chat-icon">
+        <img src="{{ url_for('static', filename='images/KUJayhawk.png') }}" alt="Chat Icon">
+    </div>
+
+    <!-- Chat Container -->
+    <div id="chat-container" class="chat-container">
+        <div class="header">
+            <h1>KU Chatbot</h1>
+            <img src="{{ url_for('static', filename='images/KUJayhawk.png') }}" alt="Chatbot Logo" class="chatbot-logo">
+        </div>
+        <div id="chat-box" class="chat-box">
+            <div class="bot-message">Hello! How can I help you today?</div>
+        </div>
+        <form id="message-form">
+            <input type="text" id="message" placeholder="Type a message..." autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('chat-icon').addEventListener('click', function () {
+            const chatContainer = document.getElementById('chat-container');
+            chatContainer.style.display = chatContainer.style.display === 'none' ? 'flex' : 'none';
+        });
+
+        const form = document.getElementById('message-form');
+        const chatBox = document.getElementById('chat-box');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            const userMessage = document.getElementById('message').value;
+
+            if (userMessage.trim() !== "") {
+                // Display user message
+                const userDiv = document.createElement('div');
+                userDiv.className = 'user-message';
+                userDiv.textContent = userMessage;
+                chatBox.appendChild(userDiv);
+
+                // Fetch bot response
+                fetch('/get_response', {
+                    method: 'POST',
+                    body: new URLSearchParams('message=' + userMessage),
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Display bot response with HTML content
+                        const botDiv = document.createElement('div');
+                        botDiv.className = 'bot-message';
+                        botDiv.innerHTML = data.response; // Use innerHTML to render HTML
+                        chatBox.appendChild(botDiv);
+
+                        // Scroll to bottom
+                        chatBox.scrollTop = chatBox.scrollHeight;
+                    });
+
+                // Clear the input
+                document.getElementById('message').value = '';
+            }
+        });
+
+    </script>
+</body>
+
+</html>
